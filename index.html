@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2f66a47dbe.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Harsh</span><br>Shukla From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a very optimistic person with a pragmatic approach towards life and a "never give up" attitude. Punctuality, discipline and honesty are some of the virtues instilled in me. I always observe situations analytically and try to find ways of solving them. My goal is to join an organization where i can utilize and enhance my skills as well as extract every single drop of that experience by contributing my bit.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C/C++/Python/Java</span><br>Basic Programming/Data Structure.</li>
+                            <li><span>HTML/JavaScript/ReactJs</span><br>Front-End Development</li>
+                            <li><span>CSS/MaterialUI/Bootstrap</span><br>Web Designing</li>
+                            <li><span>NodeJs/Django</span><br>Back-End Development</li>
+                            <li><span>MySql</span><br>Database Management System</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>15 Apr 2022 - 15 Jul 2022</span><br>Web Development Internship Using Django - Numeric Infosystem Pvt. Ltd.</li>
+                            <li><span>2 Jan 2022 - 2 Apr 2022</span><br>Mern Stack Internship Using React - Plus 91 Labs.</li>
+                            <li><span>15 Dec 2022 - 1 Feb 2023</span><br>Process Mining Virtual Internship - AICTE/EduSkills.</li>
+                            <li><span>1 Jan 2023 - 1 Feb 2023</span><br>Virtual Internship Program in Web Development - Lets Grow More.</li>
+                            <li><span>1 Mar 2022 - Present</span><br>Personal Projects.</li> 
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2015 - 2016</span><br>High School Education from Swami Vivekanand Academy.</li>
+                            <li><span>2018 - 2019</span><br>Secondary School Education from Pragati Vidya Peeth.</li>
+                            <li><span>2020 - Present</span><br>B-Tech from Institute Of Technology And Management (ITM), Gwalior.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="achievements">
+                        <ul>
+                            <li>TCS ION Career Edge - Young Professional.</li> 
+                            <li>Flipkart Grid 4.0 - Hackathon.</li> 
+                            <li>Linked In - Master In-Demand Professional Soft Skills.</li> 
+                            <li>Cognizant - Agile Methodology Virual Experience Program.</li> 
+                            <li>AWS Academy Graduate - AWS Academy Cloud Foundations.</li> 
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+
+    <div id="services">
+        <div class="container">
+            <div class="sub-title">
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Web Design Using Django</h2>
+                        <p>As a trainee, i got a good hold on language such a Python/Django. I've been completed my 3 months internship in "Numeric Infosystem Pvt. Ltd." in which i was supposed to handle the frontend, backend as well as database of an "E-Commerce Pharmacy Website" replica like "Netsmeds.com" .</p> 
+                    </div>
+
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>Web Design Using React</h2>
+                        <p>I've been completed my 3 months internship in "Plus 91 labs" in which i was aligned to a project "House Booking System" named as "Airbnb.co.in" using ReactJs/NodeJs. In this project, i've completed vendor part and admin part.</p> 
+                    </div>
+
+                    <div>
+                        <i class="fab fa-app-store"></i>
+                        <h2>Personal Projects</h2>
+                        <p>My personal projects includes an E-Commerce Website like "Beyoung.in" using react in which i tried to handle those techniques in which i was stuck or struggling in my internship duration like payment gateway, tracking or mail sending.</p> 
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>E-Commerce Website Using Django</h3>
+                        <p>Through this website user can buy, add to cart, tracking their products.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Home Booking Website Using React</h3>
+                        <p>The website is useful for the user who seek some house or any short-time living place also vendors can rent their home.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>E-Commerce Website Using React</h3>
+                        <p>Though this website user can buy high quality clothes in a very affordable price.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>Email: shuklaharsh83267@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>Mobile No.: +91-9039876301</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100058588332236"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/HS2982"><i class="fab fa-twitter-square"></i></a>
+                        <a href=" https://www.instagram.com/invites/contact/?i=cdn2jumha3e4&utm_content=mzawsd9"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/harsh-shukla-78120421"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/ha346"><i class="fab fa-github"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Harsh. Made with <i class="fas fa-heart"></i> Easy Tutorials</p>
+        </div>
+    </div>
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzkVJDPy9C3N0up1wE0Hl3EZVD4W7dVELfamT5mA2tAhuAzCpqmPc1sUzZtBIkPM2T-/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg=document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>  {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
+
+
